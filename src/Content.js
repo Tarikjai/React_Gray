@@ -43,7 +43,7 @@ const Content = () => {
                 type="checkbox" 
                 onChange={()=>handleCheck(item.id)}
                 checked={item.checked}
-            />
+              />
             <label 
               style={(item.checked) ? { textDecoration:'line-through'} : null}
               onDoubleClick={()=>handleCheck(item.id)}
