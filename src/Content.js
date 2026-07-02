@@ -6,7 +6,7 @@ import { FaTrashAlt } from "react-icons/fa";
 const Content = () => {
     const [items, setItems] = useState([
       {
-        id: 1,
+        id:  1,
         checked: false,
         item: "One half pound bag of Cocoa covered"
       },
